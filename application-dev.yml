@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/db_person?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT
+    username: root
+    password: 990921
+
+swagger:
+  enabled: true
+
+
+#mybatis-plus:
+# mapper-locations: classpath:/mapper1/*.xml
