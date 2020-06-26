@@ -1,15 +1,12 @@
 config:
-  info:
-    spring:
-      datasource:
-        driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://127.0.0.1:3306/db_person?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT
-        username: root
-        password: 990921
+  info: com.mysql.cj.jdbc.Driver
 
-swagger:
-  enabled: true
+#    spring:
+#      datasource:
+#        driver-class-name: com.mysql.cj.jdbc.Driver
+#        url: jdbc:mysql://127.0.0.1:3306/db_person?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT
+#        username: root
+#        password: 990921
 
 
-#mybatis-plus:
-# mapper-locations: classpath:/mapper1/*.xml
+
